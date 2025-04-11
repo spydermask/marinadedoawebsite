@@ -15,5 +15,5 @@ This is my submission for the SuperteamDAO x Vybe "DAOs That Do Something" bount
 - Powered by Realms.today https://realms.today
 
  Live Demo
- View the Live Site marinade-dao-showcase.netlify.app
+ View the Live Site [marinade-dao-showcase.netlify.app](https://marinade-dao-showcase.netlify.app/)
 
