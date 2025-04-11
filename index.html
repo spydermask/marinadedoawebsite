@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marinade DAO – DAOs That Do Something</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      color: white;
+      scroll-behavior: smooth;
+    }
+    .gradient-button {
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      transition: all 0.3s ease;
+    }
+    .gradient-button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border-radius: 1rem;
+      padding: 1.5rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .glass-card:hover {
+      transform: translateY(-5px);
+    }
+    .icon-button img {
+      height: 28px;
+      filter: brightness(0) invert(1);
+      transition: transform 0.2s ease;
+    }
+    .icon-button:hover img {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body class="font-sans">
+
+  <header class="text-center py-16 px-6" data-aos="fade-down">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">DAOs That Do Something</h1>
+    <p class="text-xl md:text-2xl max-w-2xl mx-auto">Showcasing Marinade DAO on Realms — A decentralized workforce building Solana’s liquid staking future. Built for the Vybe x SuperteamDAO bounty to be the best and most complete DAO showcase submission.</p>
+  </header>
+
+  <section class="text-center py-10 px-6" data-aos="fade-up">
+    <h2 class="text-3xl font-bold mb-4">Why Realms?</h2>
+    <p class="text-lg max-w-3xl mx-auto mb-6">
+      Most "DAOs" today are not truly decentralized — they depend on Discord admins or multisigs to operate. Realms changes that.
+      It provides a fully onchain, transparent, and accessible governance system where <strong>anyone</strong> with tokens can propose changes, vote, and track treasury activity.
+    </p>
+    <a href="https://realms.today/dao/marinade" target="_blank">
+      <img 
+        src="https://api.microlink.io/?url=https://realms.today/dao/marinade&screenshot=true&meta=false&embed=screenshot.url" 
+        alt="Marinade DAO on Realms"
+        class="rounded-xl mx-auto shadow-lg"
+      />
+    </a>
+    <a href="https://linktr.ee/marinadefinance" target="_blank" class="gradient-button text-white font-semibold px-6 py-3 rounded-full inline-block mt-4">Explore Marinade DAO</a>
+  </section>
+
+  <section class="py-20 px-6 bg-black bg-opacity-40" data-aos="fade-up">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-3xl font-bold mb-4">Meet Marinade DAO</h2>
+        <p class="text-lg">Marinade is Solana’s first and largest liquid staking protocol. It lets you stake SOL and receive mSOL, a liquid token you can use across DeFi.</p>
+        <p class="mt-4 text-lg">But Marinade is more than staking — it's a DAO that funds builders, rewards contributors, and governs the protocol through Realms.</p>
+        <p class="mt-4 text-lg">With real proposals, real budgets, and real execution, Marinade is not a theoretical DAO. It’s a DAO where you can show up, build something valuable, propose it, and get rewarded directly by the community — all onchain.</p>
+      </div>
+      <div class="glass-card text-center">
+        <h3 class="text-xl font-bold mb-2">Marinade DAO</h3>
+        <p class="text-sm">Solana Liquid Staking Pioneer</p>
+        <p class="text-sm mt-2">Governed on Realms. Driven by contributors. Funded by the community.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 px-6" data-aos="fade-up">
+    <h2 class="text-3xl font-bold text-center mb-10">Real Proposals from Real Contributors</h2>
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-6">
+      <div class="glass-card">
+        <h3 class="text-lg font-semibold mb-2">Marinade Academy Growth Proposal</h3>
+        <p class="text-sm">Community-driven education and onboarding content initiative — proposed and funded by MNDE holders through Realms.</p>
+        <a href="https://realms.today/dao/marinade/proposal/3Dsmn37nFQ3Z3yq9fRNdBtzqSZsnVuE9PVLKvvvRDhG3" class="text-blue-400 text-sm underline">View Proposal</a>
+      </div>
+      <div class="glass-card">
+        <h3 class="text-lg font-semibold mb-2">Liquidity Incentives for mSOL on DEXs</h3>
+        <p class="text-sm">Proposal to increase mSOL liquidity across Solana’s DeFi ecosystem. Approved and executed by the DAO.</p>
+        <a href="https://realms.today/dao/marinade/proposal/72bRj3VmsVke9RWv6FzNoiMY6Av8YKDGqKGRLGPAoEAK" class="text-blue-400 text-sm underline">View Proposal</a>
+      </div>
+      <div class="glass-card">
+        <h3 class="text-lg font-semibold mb-2">DAO Budget Allocation</h3>
+        <p class="text-sm">Quarterly budgeting voted on by the community. Demonstrates transparent, effective treasury management.</p>
+        <a href="https://realms.today/dao/marinade/proposal/99XogU9ZhJ2qX5VpLMYvZ17oYF75sYhUGENtsEHxg6rY" class="text-blue-400 text-sm underline">View Proposal</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 px-6 bg-black bg-opacity-50" data-aos="fade-up">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Get Involved and Get Paid</h2>
+      <p class="text-lg mb-4">Marinade DAO actively funds contributors — whether you’re a developer, writer, designer, or growth hacker. Just hold MNDE, join Realms, and start participating.</p>
+      <ul class="text-left list-disc list-inside text-sm space-y-2">
+        <li>🪙 Get MNDE on-chain or from centralized exchanges</li>
+        <li>📬 Propose new ideas or initiatives on Realms</li>
+        <li>🗳️ Vote and debate in onchain governance</li>
+        <li>💸 Apply for bounties and community jobs</li>
+        <li>📈 Help Marinade grow and get paid transparently</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="py-20 px-6 bg-black bg-opacity-40" data-aos="fade-up">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Built by a Real DAO Believer</h2>
+      <p class="text-lg mb-4">
+        This site was built with passion by a Nigerian Web3 developer, designer, and writer who believes DAOs can change the world.
+      </p>
+      <p class="text-sm text-gray-300">
+        Every part of this site was handcrafted: from the design to the writing to the coding — 100% original, 100% on-chain aligned.
+        It was built for the SuperteamDAO x Vybe bounty — not to boast, but to inspire and humbly win your vote.
+      </p>
+    </div>
+  </section>
+
+  <footer class="py-10 text-center text-sm text-gray-400">
+    <p>Built with passion by a Web3 creator from Nigeria • For the “DAOs That Do Something” Bounty</p>
+    <p class="mt-2">Powered by Realms • Created to showcase what real DAO innovation looks like. Crafted by @anox_0x</p>
+    <p class="mt-2 italic">Not just a project — a purposeful entry made to inspire, contribute, and (hopefully) earn your vote.</p>
+    <div class="mt-4 flex justify-center gap-4">
+      <a href="https://github.com/Marinade-Finance" target="_blank" class="icon-button">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="24" height="24">
+      </a>
+      <a href="https://twitter.com/marinadefinance" target="_blank" class="icon-button">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" width="24" height="24">
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+
+</body>
+</html>
